@@ -94,6 +94,7 @@ font-weight: 700;
     letter-spacing: 0.06em;
 color: #FFFFFF;
 margin: 0 auto;
+cursor: pointer;
 }
 
 /* Заголовки */
@@ -152,7 +153,7 @@ margin: 0 auto;
 }
 /* ПОРТФОЛИО */
 
-.portfolio-nav .link {
+.portfolio-nav .button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
     font-weight: 500;
@@ -160,15 +161,17 @@ margin: 0 auto;
         line-height: 1.6;
         text-align: center;
         letter-spacing: 0.03em;
+        cursor: pointer;
 }
 
-.portfolio-nav .link:hover,
-.portfolio-nav .link:focus {
+.portfolio-nav .button:hover,
+.portfolio-nav .button:focus {
     color: #FFFFFF;
     background-color: #2196F3;
+    
 }
 
-.portfolio-nav .link.current {
+.portfolio-nav .button.current {
     color: #FFFFFF;
     background-color: #2196F3;
 }
