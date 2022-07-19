@@ -119,6 +119,13 @@ cursor: pointer;
     line-height: 1.2px;
     letter-spacing: 0.03em;
 }
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+}
 .team-text {
     color: var(--prymary-text-color);
         font-weight: 400;
@@ -156,6 +163,7 @@ cursor: pointer;
 .portfolio-nav .button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    font-family: inherit;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
